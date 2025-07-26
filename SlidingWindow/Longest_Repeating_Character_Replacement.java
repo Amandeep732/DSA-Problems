@@ -2,7 +2,7 @@ package SlidingWindow;
 
 import java.util.HashMap;
 import java.util.Map;
-public class LongestRepeatingCharacterReplacement {
+public class Longest_Repeating_Character_Replacement{
       public int characterReplacement(String s, int k) {
       Map<Character, Integer> map = new HashMap<>();
       int ans =0;
