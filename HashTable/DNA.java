@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 class solution {
 
-
-      // problem number 187 on leetcode
+      // problem number 187 on leetcode 
+      // level = medium 
     public List<String> findRepeatedDnaSequences(String s) {
         List<String> ans = new ArrayList<>();
         HashSet<String> set = new HashSet<>();
